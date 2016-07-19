@@ -18,7 +18,7 @@ class TestService {
 	    // ADMIN permissions to each controller
         if (role.authority != 'ROLE_ADMIN') {
             new RoleHierarchyEntry(entry: 'ROLE_ADMIN > ' + role.authority).save()
-            //springSecurityService.reloadDBRoleHierarchy()
+            springSecurityService.reloadDBRoleHierarchy()
         }
 
         return role
