@@ -1,0 +1,21 @@
+# BUILDS
+**/bin
+**/build
+
+# GRADLE
+.gradle/
+**/.gradle
+#**/gradle
+#**/gradlew
+#**/gradlew.bat
+
+# ECLIPSE
+**/.settings
+**/.project
+**/.classpath
+**/.asscache
+**/.metadata
+**/.recommenders
+
+# INTELLIJ IDEA
+**/.idea
